@@ -24,7 +24,7 @@ integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkc
         <a class="logo link" href="./index.html">Web<span class="logo-part">Studio</span></a>
 
           <ul class="menu">
-            <li><a class="page-description link" href="./index.html">Studio</a></li>
+            <li><a class="page-description link underline" href="./index.html">Studio</a></li>
           <li><a class="page-description link" href="./portfolio.html">Portfolio</a></li>
           <li><a class="page-description link" href="">Contacts</a></li>
          </ul>
@@ -46,7 +46,14 @@ integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkc
     <section class="hero">
           <div class="container hero-main">
       <h1 class="hero-title">Effective Solutions <br/>for Your Business</h1>
-      <button class="hero-button" type="button">Order Service</button>
+     
+      <button class="hero-button" type="button" data-modal-open>Order Service</button>
+      <div class="modal is-hidden" data-modal>
+   
+          <button class="hero-button-close" data-modal-close>
+            <svg class="hero-button-feature" width="24px" height="24px"><use href="./images/icons.svg#icon-close-4"></use></svg>
+          </button>
+        </div>
     </div>
     </section>
  
@@ -336,6 +343,6 @@ integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkc
       </div>
       </div>
     </footer>
- 
+ <script src="./js/modal.js"></script>
   </body>
 </html>

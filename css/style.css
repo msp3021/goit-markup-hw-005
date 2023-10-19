@@ -190,9 +190,8 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 1.12px;
-
 max-width:496px;
-text-align: center;}
+}
 
 .hero-button{
 font-family:'Roboto', sans-serif; 
@@ -357,7 +356,7 @@ text-align: center;
    height: 40px;
 background-color: #4D5AE5;
   border-radius: 50%;
-  transition-property: background-color,color;
+  transition-property: background-color;
   transition-duration:250ms ;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1 );}
 
@@ -395,9 +394,8 @@ background-color: #4D5AE5;
     align-items: center;
     justify-content: center;
     color: #8e8f99;
-    transition-property: border-color,color;
-    transition-property: color;
-    transition-duration:250ms ;
+    transition-property: border-color, color;
+   transition-duration:250ms ;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -533,7 +531,7 @@ margin-bottom: 72px; }
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
-    transition-property:color backgroundcolor border-color box-shadow;
+    transition-property:color backgroundcolor,border-color,box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0%);
@@ -590,15 +588,15 @@ row-gap: 48px;
     display: block; 
     transition-property:box-shadow;
    transition-duration: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-   transform: translateY(0%);
+  
   }
 
   .project-link:hover,
   .project-link:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0%);
   }
 
   .project-animation{
@@ -633,6 +631,27 @@ row-gap: 48px;
      0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
      margin:auto;
      position: absolute;} */
+
+      /*  .hero-button-close{
+      background-color: #FFFFFF;
+        position: absolute;
+        inset: 0 0 auto auto;
+        width:24px;
+        height:24px;
+        border-radius: 50%;
+        border:1px solid rgba(0,0,0, 0.1);
+        cursor:pointer;
+        margin-top: 24px;
+        margin-right: 24px;
+
+      
+    }
+
+    .hero-button-feature{
+
+        fill:#E7E9FC;} */
+       
+    
 
 .modal{
     position: fixed;
@@ -706,23 +725,3 @@ row-gap: 48px;
     fill:#ffffff;
 
 }
- /*  .hero-button-close{
-      background-color: #FFFFFF;
-        position: absolute;
-        inset: 0 0 auto auto;
-        width:24px;
-        height:24px;
-        border-radius: 50%;
-        border:1px solid rgba(0,0,0, 0.1);
-        cursor:pointer;
-        margin-top: 24px;
-        margin-right: 24px;
-
-      
-    }
-
-    .hero-button-feature{
-
-        fill:#E7E9FC;} */
-       
-    

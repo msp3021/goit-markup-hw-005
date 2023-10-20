@@ -594,11 +594,7 @@ row-gap: 48px;
   
   }
 
-  .project-link:hover .project-animation-text, 
-.project-link:focus .project-animation-text
-{
- transform: translateY(0%) 
-}
+
 /*
   .project-link:hover,
   .project-link:focus{
@@ -633,6 +629,12 @@ row-gap: 48px;
     overflow:hidden;
   }
 
+  .project-link:hover .project-animation-text, 
+  .project-link:focus .project-animation-text
+  {
+   transform: translateY(0%) 
+  }
+  
   /*====================modal js ===========================================*/
 /*.modal{
     width:408px;

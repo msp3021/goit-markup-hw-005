@@ -196,6 +196,12 @@ margin:0 auto;}
     gap: 20px;  
 }
 
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-title{
 color:#FFF;
 text-align: center;
@@ -203,7 +209,7 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 1.12px;
-/* max-width:496px; */
+ max-width:496px; 
 }
 
 .hero-button{

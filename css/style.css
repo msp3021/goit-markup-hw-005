@@ -21,6 +21,18 @@ img{
 
 .underline{
     position:relative;
+    color:#404bbf;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding: 24px 0;
+  
+    transition-property: color;
+transition-duration:250ms;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1 );
+  
    
 }
 
@@ -29,6 +41,7 @@ img{
     content:"";
     top:67px;
     left:0;
+    color:#404bbf;
     
     background-color: #404bbf;
     border-radius: 2px;
@@ -118,7 +131,7 @@ text-decoration:none;
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 24px 0;
-    color:#404bbf;
+  
     transition-property: color;
 transition-duration:250ms;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1 );
@@ -190,7 +203,7 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 1.12px;
-max-width:496px;
+/* max-width:496px; */
 }
 
 .hero-button{
@@ -595,7 +608,7 @@ row-gap: 48px;
   }
 
 
-/*
+
   .project-link:hover,
   .project-link:focus{
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
@@ -604,7 +617,7 @@ row-gap: 48px;
     transform: translateY(0%);
   }
 
-*/
+
 
   .project-animation-text{
     position: absolute;
@@ -731,6 +744,8 @@ row-gap: 48px;
 }
 
 .hero-button-feature{
+    width:24px;
+    height:24px;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4,0,0.2,1);

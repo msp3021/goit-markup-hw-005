@@ -750,8 +750,8 @@ row-gap: 48px;
 }
 
 .hero-button-feature{
-    width:24px;
-    height:24px;
+    width:8px;
+    height:8px;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4,0,0.2,1);
